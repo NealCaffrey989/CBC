@@ -1,0 +1,130 @@
+﻿Build started 2015/3/25 16:22:07.
+     1>Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\BuildTools\headers /I"C:\cygwin\home\ted\SYMPHONY-trunk\CoinUtils\inc" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D COINUTILS_BUILD /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /D _SCL_SECURE_NO_WARNINGS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\CoinAlloc.cpp ..\..\..\src\CoinBuild.cpp ..\..\..\src\CoinDenseFactorization.cpp ..\..\..\src\CoinDenseVector.cpp ..\..\..\src\CoinError.cpp ..\..\..\src\CoinFactorization1.cpp ..\..\..\src\CoinFactorization2.cpp ..\..\..\src\CoinFactorization3.cpp ..\..\..\src\CoinFactorization4.cpp ..\..\..\src\CoinFileIO.cpp ..\..\..\src\CoinFinite.cpp ..\..\..\src\CoinIndexedVector.cpp ..\..\..\src\CoinLpIO.cpp ..\..\..\src\CoinMessage.cpp ..\..\..\src\CoinMessageHandler.cpp ..\..\..\src\CoinModel.cpp ..\..\..\src\CoinModelUseful.cpp ..\..\..\src\CoinModelUseful2.cpp ..\..\..\src\CoinMpsIO.cpp ..\..\..\src\CoinOslFactorization.cpp ..\..\..\src\CoinOslFactorization2.cpp ..\..\..\src\CoinOslFactorization3.cpp ..\..\..\src\CoinPackedMatrix.cpp ..\..\..\src\CoinPackedVector.cpp ..\..\..\src\CoinPackedVectorBase.cpp ..\..\..\src\CoinParam.cpp ..\..\..\src\CoinParamUtils.cpp ..\..\..\src\CoinPostsolveMatrix.cpp ..\..\..\src\CoinPrePostsolveMatrix.cpp ..\..\..\src\CoinPresolveDoubleton.cpp ..\..\..\src\CoinPresolveDual.cpp ..\..\..\src\CoinPresolveDupcol.cpp ..\..\..\src\CoinPresolveEmpty.cpp ..\..\..\src\CoinPresolveFixed.cpp ..\..\..\src\CoinPresolveForcing.cpp ..\..\..\src\CoinPresolveHelperFunctions.cpp ..\..\..\src\CoinPresolveImpliedFree.cpp ..\..\..\src\CoinPresolveIsolated.cpp ..\..\..\src\CoinPresolveMatrix.cpp ..\..\..\src\CoinPresolvePsdebug.cpp ..\..\..\src\CoinPresolveSingleton.cpp ..\..\..\src\CoinPresolveSubst.cpp ..\..\..\src\CoinPresolveTighten.cpp ..\..\..\src\CoinPresolveTripleton.cpp ..\..\..\src\CoinPresolveUseless.cpp ..\..\..\src\CoinPresolveZeros.cpp ..\..\..\src\CoinSearchTree.cpp ..\..\..\src\CoinShallowPackedVector.cpp ..\..\..\src\CoinSimpFactorization.cpp ..\..\..\src\CoinSnapshot.cpp ..\..\..\src\CoinStructuredModel.cpp ..\..\..\src\CoinWarmStartBasis.cpp ..\..\..\src\CoinWarmStartDual.cpp ..\..\..\src\CoinWarmStartPrimalDual.cpp ..\..\..\src\CoinWarmStartVector.cpp
+         CoinAlloc.cpp
+         CoinBuild.cpp
+         CoinDenseFactorization.cpp
+         CoinDenseVector.cpp
+         CoinError.cpp
+         CoinFactorization1.cpp
+         CoinFactorization2.cpp
+         CoinFactorization3.cpp
+         CoinFactorization4.cpp
+         CoinFileIO.cpp
+         CoinFinite.cpp
+         CoinIndexedVector.cpp
+         CoinLpIO.cpp
+         CoinMessage.cpp
+         CoinMessageHandler.cpp
+         CoinModel.cpp
+         CoinModelUseful.cpp
+         CoinModelUseful2.cpp
+     1>..\..\..\src\CoinModelUseful2.cpp(706): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>..\..\..\src\CoinModelUseful2.cpp(1358): warning C4102: 'yyerrorlab' : unreferenced label
+         CoinMpsIO.cpp
+         CoinOslFactorization.cpp
+         Generating Code...
+         Compiling...
+         CoinOslFactorization2.cpp
+         CoinOslFactorization3.cpp
+         CoinPackedMatrix.cpp
+         CoinPackedVector.cpp
+         CoinPackedVectorBase.cpp
+         CoinParam.cpp
+         CoinParamUtils.cpp
+         CoinPostsolveMatrix.cpp
+         CoinPrePostsolveMatrix.cpp
+         CoinPresolveDoubleton.cpp
+         CoinPresolveDual.cpp
+         CoinPresolveDupcol.cpp
+         CoinPresolveEmpty.cpp
+         CoinPresolveFixed.cpp
+         CoinPresolveForcing.cpp
+         CoinPresolveHelperFunctions.cpp
+         CoinPresolveImpliedFree.cpp
+         CoinPresolveIsolated.cpp
+         CoinPresolveMatrix.cpp
+         CoinPresolvePsdebug.cpp
+         Generating Code...
+         Compiling...
+         CoinPresolveSingleton.cpp
+         CoinPresolveSubst.cpp
+         CoinPresolveTighten.cpp
+         CoinPresolveTripleton.cpp
+         CoinPresolveUseless.cpp
+         CoinPresolveZeros.cpp
+         CoinSearchTree.cpp
+         CoinShallowPackedVector.cpp
+         CoinSimpFactorization.cpp
+         CoinSnapshot.cpp
+         CoinStructuredModel.cpp
+         CoinWarmStartBasis.cpp
+         CoinWarmStartDual.cpp
+         CoinWarmStartPrimalDual.cpp
+         CoinWarmStartVector.cpp
+         Generating Code...
+       Lib:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Release\libCoinUtils.lib" /NOLOGO Win32\Release\CoinAlloc.obj
+         Win32\Release\CoinBuild.obj
+         Win32\Release\CoinDenseFactorization.obj
+         Win32\Release\CoinDenseVector.obj
+         Win32\Release\CoinError.obj
+         Win32\Release\CoinFactorization1.obj
+         Win32\Release\CoinFactorization2.obj
+         Win32\Release\CoinFactorization3.obj
+         Win32\Release\CoinFactorization4.obj
+         Win32\Release\CoinFileIO.obj
+         Win32\Release\CoinFinite.obj
+         Win32\Release\CoinIndexedVector.obj
+         Win32\Release\CoinLpIO.obj
+         Win32\Release\CoinMessage.obj
+         Win32\Release\CoinMessageHandler.obj
+         Win32\Release\CoinModel.obj
+         Win32\Release\CoinModelUseful.obj
+         Win32\Release\CoinModelUseful2.obj
+         Win32\Release\CoinMpsIO.obj
+         Win32\Release\CoinOslFactorization.obj
+         Win32\Release\CoinOslFactorization2.obj
+         Win32\Release\CoinOslFactorization3.obj
+         Win32\Release\CoinPackedMatrix.obj
+         Win32\Release\CoinPackedVector.obj
+         Win32\Release\CoinPackedVectorBase.obj
+         Win32\Release\CoinParam.obj
+         Win32\Release\CoinParamUtils.obj
+         Win32\Release\CoinPostsolveMatrix.obj
+         Win32\Release\CoinPrePostsolveMatrix.obj
+         Win32\Release\CoinPresolveDoubleton.obj
+         Win32\Release\CoinPresolveDual.obj
+         Win32\Release\CoinPresolveDupcol.obj
+         Win32\Release\CoinPresolveEmpty.obj
+         Win32\Release\CoinPresolveFixed.obj
+         Win32\Release\CoinPresolveForcing.obj
+         Win32\Release\CoinPresolveHelperFunctions.obj
+         Win32\Release\CoinPresolveImpliedFree.obj
+         Win32\Release\CoinPresolveIsolated.obj
+         Win32\Release\CoinPresolveMatrix.obj
+         Win32\Release\CoinPresolvePsdebug.obj
+         Win32\Release\CoinPresolveSingleton.obj
+         Win32\Release\CoinPresolveSubst.obj
+         Win32\Release\CoinPresolveTighten.obj
+         Win32\Release\CoinPresolveTripleton.obj
+         Win32\Release\CoinPresolveUseless.obj
+         Win32\Release\CoinPresolveZeros.obj
+         Win32\Release\CoinSearchTree.obj
+         Win32\Release\CoinShallowPackedVector.obj
+         Win32\Release\CoinSimpFactorization.obj
+         Win32\Release\CoinSnapshot.obj
+         Win32\Release\CoinStructuredModel.obj
+         Win32\Release\CoinWarmStartBasis.obj
+         Win32\Release\CoinWarmStartDual.obj
+         Win32\Release\CoinWarmStartPrimalDual.obj
+         Win32\Release\CoinWarmStartVector.obj
+     1>CoinPresolvePsdebug.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>CoinAlloc.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libCoinUtils.vcxproj -> E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Release\libCoinUtils.lib
+     1>Done Building Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:25.02

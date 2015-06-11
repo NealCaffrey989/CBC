@@ -1,0 +1,108 @@
+﻿Build started 2015/3/25 16:18:05.
+     1>Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /ZI /nologo /W3 /WX- /Od /Oy- /D CLP_BUILD /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\Clp_C_Interface.cpp ..\..\..\src\ClpCholeskyBase.cpp ..\..\..\src\ClpCholeskyDense.cpp ..\..\..\src\ClpConstraint.cpp ..\..\..\src\ClpConstraintLinear.cpp ..\..\..\src\ClpConstraintQuadratic.cpp ..\..\..\src\ClpDualRowDantzig.cpp ..\..\..\src\ClpDualRowPivot.cpp ..\..\..\src\ClpDualRowSteepest.cpp ..\..\..\src\ClpDummyMatrix.cpp ..\..\..\src\ClpDynamicExampleMatrix.cpp ..\..\..\src\ClpDynamicMatrix.cpp ..\..\..\src\ClpEventHandler.cpp ..\..\..\src\ClpFactorization.cpp ..\..\..\src\ClpGubDynamicMatrix.cpp ..\..\..\src\ClpGubMatrix.cpp ..\..\..\src\ClpHelperFunctions.cpp ..\..\..\src\ClpInterior.cpp ..\..\..\src\ClpLinearObjective.cpp ..\..\..\src\ClpLsqr.cpp ..\..\..\src\ClpMatrixBase.cpp ..\..\..\src\ClpMessage.cpp ..\..\..\src\ClpModel.cpp ..\..\..\src\ClpNetworkBasis.cpp ..\..\..\src\ClpNetworkMatrix.cpp ..\..\..\src\ClpNode.cpp ..\..\..\src\ClpNonLinearCost.cpp ..\..\..\src\ClpObjective.cpp ..\..\..\src\ClpPackedMatrix.cpp ..\..\..\src\ClpPdco.cpp ..\..\..\src\ClpPdcoBase.cpp ..\..\..\src\ClpPlusMinusOneMatrix.cpp ..\..\..\src\ClpPredictorCorrector.cpp ..\..\..\src\ClpPresolve.cpp ..\..\..\src\ClpPrimalColumnDantzig.cpp ..\..\..\src\ClpPrimalColumnPivot.cpp ..\..\..\src\ClpPrimalColumnSteepest.cpp ..\..\..\src\ClpQuadraticObjective.cpp ..\..\..\src\ClpSimplex.cpp ..\..\..\src\ClpSimplexDual.cpp ..\..\..\src\ClpSimplexNonlinear.cpp ..\..\..\src\ClpSimplexOther.cpp ..\..\..\src\ClpSimplexPrimal.cpp ..\..\..\src\ClpSolve.cpp ..\..\..\src\Idiot.cpp ..\..\..\src\IdiSolve.cpp
+         IdiSolve.cpp
+         Idiot.cpp
+         ClpSolve.cpp
+         ClpSimplexPrimal.cpp
+         ClpSimplexOther.cpp
+         ClpSimplexNonlinear.cpp
+         ClpSimplexDual.cpp
+         ClpSimplex.cpp
+         ClpQuadraticObjective.cpp
+         ClpPrimalColumnSteepest.cpp
+         ClpPrimalColumnPivot.cpp
+         ClpPrimalColumnDantzig.cpp
+         ClpPresolve.cpp
+         ClpPredictorCorrector.cpp
+         ClpPlusMinusOneMatrix.cpp
+         ClpPdcoBase.cpp
+         ClpPdco.cpp
+         ClpPackedMatrix.cpp
+         ClpObjective.cpp
+         ClpNonLinearCost.cpp
+         Generating Code...
+         Compiling...
+         ClpNode.cpp
+         ClpNetworkMatrix.cpp
+         ClpNetworkBasis.cpp
+         ClpModel.cpp
+         ClpMessage.cpp
+         ClpMatrixBase.cpp
+         ClpLsqr.cpp
+         ClpLinearObjective.cpp
+         ClpInterior.cpp
+         ClpHelperFunctions.cpp
+         ClpGubMatrix.cpp
+         ClpGubDynamicMatrix.cpp
+         ClpFactorization.cpp
+         ClpEventHandler.cpp
+         ClpDynamicMatrix.cpp
+         ClpDynamicExampleMatrix.cpp
+         ClpDummyMatrix.cpp
+         ClpDualRowSteepest.cpp
+         ClpDualRowPivot.cpp
+         ClpDualRowDantzig.cpp
+         Generating Code...
+         Compiling...
+         ClpConstraintQuadratic.cpp
+         ClpConstraintLinear.cpp
+         ClpConstraint.cpp
+         ClpCholeskyDense.cpp
+         ClpCholeskyBase.cpp
+         Clp_C_Interface.cpp
+         Generating Code...
+       Lib:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Debug\libClp.lib" /NOLOGO Win32\Debug\Clp_C_Interface.obj
+         Win32\Debug\ClpCholeskyBase.obj
+         Win32\Debug\ClpCholeskyDense.obj
+         Win32\Debug\ClpConstraint.obj
+         Win32\Debug\ClpConstraintLinear.obj
+         Win32\Debug\ClpConstraintQuadratic.obj
+         Win32\Debug\ClpDualRowDantzig.obj
+         Win32\Debug\ClpDualRowPivot.obj
+         Win32\Debug\ClpDualRowSteepest.obj
+         Win32\Debug\ClpDummyMatrix.obj
+         Win32\Debug\ClpDynamicExampleMatrix.obj
+         Win32\Debug\ClpDynamicMatrix.obj
+         Win32\Debug\ClpEventHandler.obj
+         Win32\Debug\ClpFactorization.obj
+         Win32\Debug\ClpGubDynamicMatrix.obj
+         Win32\Debug\ClpGubMatrix.obj
+         Win32\Debug\ClpHelperFunctions.obj
+         Win32\Debug\ClpInterior.obj
+         Win32\Debug\ClpLinearObjective.obj
+         Win32\Debug\ClpLsqr.obj
+         Win32\Debug\ClpMatrixBase.obj
+         Win32\Debug\ClpMessage.obj
+         Win32\Debug\ClpModel.obj
+         Win32\Debug\ClpNetworkBasis.obj
+         Win32\Debug\ClpNetworkMatrix.obj
+         Win32\Debug\ClpNode.obj
+         Win32\Debug\ClpNonLinearCost.obj
+         Win32\Debug\ClpObjective.obj
+         Win32\Debug\ClpPackedMatrix.obj
+         Win32\Debug\ClpPdco.obj
+         Win32\Debug\ClpPdcoBase.obj
+         Win32\Debug\ClpPlusMinusOneMatrix.obj
+         Win32\Debug\ClpPredictorCorrector.obj
+         Win32\Debug\ClpPresolve.obj
+         Win32\Debug\ClpPrimalColumnDantzig.obj
+         Win32\Debug\ClpPrimalColumnPivot.obj
+         Win32\Debug\ClpPrimalColumnSteepest.obj
+         Win32\Debug\ClpQuadraticObjective.obj
+         Win32\Debug\ClpSimplex.obj
+         Win32\Debug\ClpSimplexDual.obj
+         Win32\Debug\ClpSimplexNonlinear.obj
+         Win32\Debug\ClpSimplexOther.obj
+         Win32\Debug\ClpSimplexPrimal.obj
+         Win32\Debug\ClpSolve.obj
+         Win32\Debug\Idiot.obj
+         Win32\Debug\IdiSolve.obj
+         libClp.vcxproj -> E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Debug\libClp.lib
+     1>Done Building Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:56.67

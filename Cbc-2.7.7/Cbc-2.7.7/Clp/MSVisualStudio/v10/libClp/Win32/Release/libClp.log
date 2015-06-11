@@ -1,0 +1,108 @@
+﻿Build started 2015/3/25 16:22:01.
+     1>Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D CLP_BUILD /D WIN32 /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\Clp_C_Interface.cpp ..\..\..\src\ClpCholeskyBase.cpp ..\..\..\src\ClpCholeskyDense.cpp ..\..\..\src\ClpConstraint.cpp ..\..\..\src\ClpConstraintLinear.cpp ..\..\..\src\ClpConstraintQuadratic.cpp ..\..\..\src\ClpDualRowDantzig.cpp ..\..\..\src\ClpDualRowPivot.cpp ..\..\..\src\ClpDualRowSteepest.cpp ..\..\..\src\ClpDummyMatrix.cpp ..\..\..\src\ClpDynamicExampleMatrix.cpp ..\..\..\src\ClpDynamicMatrix.cpp ..\..\..\src\ClpEventHandler.cpp ..\..\..\src\ClpFactorization.cpp ..\..\..\src\ClpGubDynamicMatrix.cpp ..\..\..\src\ClpGubMatrix.cpp ..\..\..\src\ClpHelperFunctions.cpp ..\..\..\src\ClpInterior.cpp ..\..\..\src\ClpLinearObjective.cpp ..\..\..\src\ClpLsqr.cpp ..\..\..\src\ClpMatrixBase.cpp ..\..\..\src\ClpMessage.cpp ..\..\..\src\ClpModel.cpp ..\..\..\src\ClpNetworkBasis.cpp ..\..\..\src\ClpNetworkMatrix.cpp ..\..\..\src\ClpNode.cpp ..\..\..\src\ClpNonLinearCost.cpp ..\..\..\src\ClpObjective.cpp ..\..\..\src\ClpPackedMatrix.cpp ..\..\..\src\ClpPdco.cpp ..\..\..\src\ClpPdcoBase.cpp ..\..\..\src\ClpPlusMinusOneMatrix.cpp ..\..\..\src\ClpPredictorCorrector.cpp ..\..\..\src\ClpPresolve.cpp ..\..\..\src\ClpPrimalColumnDantzig.cpp ..\..\..\src\ClpPrimalColumnPivot.cpp ..\..\..\src\ClpPrimalColumnSteepest.cpp ..\..\..\src\ClpQuadraticObjective.cpp ..\..\..\src\ClpSimplex.cpp ..\..\..\src\ClpSimplexDual.cpp ..\..\..\src\ClpSimplexNonlinear.cpp ..\..\..\src\ClpSimplexOther.cpp ..\..\..\src\ClpSimplexPrimal.cpp ..\..\..\src\ClpSolve.cpp ..\..\..\src\Idiot.cpp ..\..\..\src\IdiSolve.cpp
+         Clp_C_Interface.cpp
+         ClpCholeskyBase.cpp
+         ClpCholeskyDense.cpp
+         ClpConstraint.cpp
+         ClpConstraintLinear.cpp
+         ClpConstraintQuadratic.cpp
+         ClpDualRowDantzig.cpp
+         ClpDualRowPivot.cpp
+         ClpDualRowSteepest.cpp
+         ClpDummyMatrix.cpp
+         ClpDynamicExampleMatrix.cpp
+         ClpDynamicMatrix.cpp
+         ClpEventHandler.cpp
+         ClpFactorization.cpp
+         ClpGubDynamicMatrix.cpp
+         ClpGubMatrix.cpp
+         ClpHelperFunctions.cpp
+         ClpInterior.cpp
+         ClpLinearObjective.cpp
+         ClpLsqr.cpp
+         Generating Code...
+         Compiling...
+         ClpMatrixBase.cpp
+         ClpMessage.cpp
+         ClpModel.cpp
+         ClpNetworkBasis.cpp
+         ClpNetworkMatrix.cpp
+         ClpNode.cpp
+         ClpNonLinearCost.cpp
+         ClpObjective.cpp
+         ClpPackedMatrix.cpp
+         ClpPdco.cpp
+         ClpPdcoBase.cpp
+         ClpPlusMinusOneMatrix.cpp
+         ClpPredictorCorrector.cpp
+         ClpPresolve.cpp
+         ClpPrimalColumnDantzig.cpp
+         ClpPrimalColumnPivot.cpp
+         ClpPrimalColumnSteepest.cpp
+         ClpQuadraticObjective.cpp
+         ClpSimplex.cpp
+         ClpSimplexDual.cpp
+         Generating Code...
+         Compiling...
+         ClpSimplexNonlinear.cpp
+         ClpSimplexOther.cpp
+         ClpSimplexPrimal.cpp
+         ClpSolve.cpp
+         Idiot.cpp
+         IdiSolve.cpp
+         Generating Code...
+       Lib:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Release\libClp.lib" /NOLOGO Win32\Release\Clp_C_Interface.obj
+         Win32\Release\ClpCholeskyBase.obj
+         Win32\Release\ClpCholeskyDense.obj
+         Win32\Release\ClpConstraint.obj
+         Win32\Release\ClpConstraintLinear.obj
+         Win32\Release\ClpConstraintQuadratic.obj
+         Win32\Release\ClpDualRowDantzig.obj
+         Win32\Release\ClpDualRowPivot.obj
+         Win32\Release\ClpDualRowSteepest.obj
+         Win32\Release\ClpDummyMatrix.obj
+         Win32\Release\ClpDynamicExampleMatrix.obj
+         Win32\Release\ClpDynamicMatrix.obj
+         Win32\Release\ClpEventHandler.obj
+         Win32\Release\ClpFactorization.obj
+         Win32\Release\ClpGubDynamicMatrix.obj
+         Win32\Release\ClpGubMatrix.obj
+         Win32\Release\ClpHelperFunctions.obj
+         Win32\Release\ClpInterior.obj
+         Win32\Release\ClpLinearObjective.obj
+         Win32\Release\ClpLsqr.obj
+         Win32\Release\ClpMatrixBase.obj
+         Win32\Release\ClpMessage.obj
+         Win32\Release\ClpModel.obj
+         Win32\Release\ClpNetworkBasis.obj
+         Win32\Release\ClpNetworkMatrix.obj
+         Win32\Release\ClpNode.obj
+         Win32\Release\ClpNonLinearCost.obj
+         Win32\Release\ClpObjective.obj
+         Win32\Release\ClpPackedMatrix.obj
+         Win32\Release\ClpPdco.obj
+         Win32\Release\ClpPdcoBase.obj
+         Win32\Release\ClpPlusMinusOneMatrix.obj
+         Win32\Release\ClpPredictorCorrector.obj
+         Win32\Release\ClpPresolve.obj
+         Win32\Release\ClpPrimalColumnDantzig.obj
+         Win32\Release\ClpPrimalColumnPivot.obj
+         Win32\Release\ClpPrimalColumnSteepest.obj
+         Win32\Release\ClpQuadraticObjective.obj
+         Win32\Release\ClpSimplex.obj
+         Win32\Release\ClpSimplexDual.obj
+         Win32\Release\ClpSimplexNonlinear.obj
+         Win32\Release\ClpSimplexOther.obj
+         Win32\Release\ClpSimplexPrimal.obj
+         Win32\Release\ClpSolve.obj
+         Win32\Release\Idiot.obj
+         Win32\Release\IdiSolve.obj
+         libClp.vcxproj -> E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Release\libClp.lib
+     1>Done Building Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:56.13

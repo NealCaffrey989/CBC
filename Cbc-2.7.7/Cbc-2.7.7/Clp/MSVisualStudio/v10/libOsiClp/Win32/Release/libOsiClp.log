@@ -1,0 +1,13 @@
+﻿Build started 2015/3/25 16:24:33.
+     1>Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\Clp\src /I..\..\..\..\Clp\src\OsiClp /I..\..\..\..\Osi\src /I..\..\..\..\Osi\src\Osi /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D OSI_BUILD /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\OsiClp\OsiClpSolverInterface.cpp
+         OsiClpSolverInterface.cpp
+       Lib:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Release\libOsiClp.lib" /NOLOGO Win32\Release\OsiClpSolverInterface.obj
+         libOsiClp.vcxproj -> E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Release\libOsiClp.lib
+     1>Done Building Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.62

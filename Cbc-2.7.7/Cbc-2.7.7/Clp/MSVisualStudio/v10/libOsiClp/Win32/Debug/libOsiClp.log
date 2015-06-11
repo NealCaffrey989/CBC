@@ -1,0 +1,23 @@
+﻿Build started 2015/3/25 16:20:02.
+     1>Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\Clp\src /I..\..\..\..\Clp\src\OsiClp /I..\..\..\..\Osi\src /I..\..\..\..\Osi\src\Osi /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /ZI /nologo /W3 /WX- /Od /Oy- /D OSI_BUILD /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\OsiClp\OsiClpSolverInterface.cpp
+         OsiClpSolverInterface.cpp
+     1>e:\program files\microsoft visual studio 12.0\vc\include\algorithm(1026): warning C4996: 'std::_Transform1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 e:\program files\microsoft visual studio 12.0\vc\include\algorithm(1007) : see declaration of 'std::_Transform1'
+                 e:\program\c++\cbc-2.7.7\cbc-2.7.7\clp\src\osiclp\osiclpsolverinterface.cpp(2996) : see reference to function template instantiation '_OutIt std::transform<const double*,double*,std::negate<double>>(_InIt,_InIt,_OutIt,_Fn1)' being compiled
+                 with
+                 [
+                     _OutIt=double *
+         ,            _InIt=const double *
+         ,            _Fn1=std::negate<double>
+                 ]
+                 e:\program files\microsoft visual studio 12.0\vc\include\algorithm(1007) : see declaration of 'std::_Transform1'
+       Lib:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Debug\libOsiClp.lib" /NOLOGO Win32\Debug\OsiClpSolverInterface.obj
+         libOsiClp.vcxproj -> E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Debug\libOsiClp.lib
+     1>Done Building Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.68

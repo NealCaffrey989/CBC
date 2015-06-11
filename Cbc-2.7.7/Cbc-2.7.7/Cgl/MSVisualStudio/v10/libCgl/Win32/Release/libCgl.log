@@ -1,0 +1,72 @@
+﻿Build started 2015/3/25 16:22:01.
+     1>Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cgl\MSVisualStudio\v10\libCgl\libCgl.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\src\CglDuplicateRow /I..\..\..\src\CglMixedIntegerRounding /I..\..\..\src\CglMixedIntegerRounding2 /I..\..\..\src\CglFlowCover /I..\..\..\src\CglClique /I..\..\..\src\CglOddHole /I..\..\..\src\CglKnapsackCover /I..\..\..\src\CglGomory /I..\..\..\src\CglPreProcess /I..\..\..\src\CglRedSplit /I..\..\..\src\CglResidualCapacity /I..\..\..\src\CglProbing /I..\..\..\src /I..\..\..\..\Osi\src\Osi /I..\..\..\..\Clp\src\OsiClp /I..\..\..\..\Clp\src /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /D _SCL_SECURE_NO_WARNINGS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\CglAllDifferent\CglAllDifferent.cpp ..\..\..\src\CglClique\CglClique.cpp ..\..\..\src\CglClique\CglCliqueHelper.cpp ..\..\..\src\CglCutGenerator.cpp ..\..\..\src\CglDuplicateRow\CglDuplicateRow.cpp ..\..\..\src\CglFlowCover\CglFlowCover.cpp ..\..\..\src\CglGomory\CglGomory.cpp ..\..\..\src\CglKnapsackCover\CglKnapsackCover.cpp ..\..\..\src\CglLandP\CglLandP.cpp ..\..\..\src\CglLandP\CglLandPMessages.cpp ..\..\..\src\CglLandP\CglLandPSimplex.cpp ..\..\..\src\CglLandP\CglLandPTabRow.cpp ..\..\..\src\CglLandP\CglLandPUtils.cpp ..\..\..\src\CglLandP\CglLandPValidator.cpp ..\..\..\src\CglLiftAndProject\CglLiftAndProject.cpp ..\..\..\src\CglMessage.cpp ..\..\..\src\CglMixedIntegerRounding\CglMixedIntegerRounding.cpp ..\..\..\src\CglMixedIntegerRounding2\CglMixedIntegerRounding2.cpp ..\..\..\src\CglOddHole\CglOddHole.cpp ..\..\..\src\CglParam.cpp ..\..\..\src\CglPreProcess\CglPreProcess.cpp ..\..\..\src\CglProbing\CglProbing.cpp ..\..\..\src\CglRedSplit\CglRedSplit.cpp ..\..\..\src\CglRedSplit\CglRedSplitParam.cpp ..\..\..\src\CglResidualCapacity\CglResidualCapacity.cpp ..\..\..\src\CglSimpleRounding\CglSimpleRounding.cpp ..\..\..\src\CglStored.cpp ..\..\..\src\CglTreeInfo.cpp ..\..\..\src\CglTwomir\CglTwomir.cpp
+         CglAllDifferent.cpp
+         CglClique.cpp
+         CglCliqueHelper.cpp
+         CglCutGenerator.cpp
+         CglDuplicateRow.cpp
+         CglFlowCover.cpp
+         CglGomory.cpp
+         CglKnapsackCover.cpp
+         CglLandP.cpp
+         CglLandPMessages.cpp
+         CglLandPSimplex.cpp
+         CglLandPTabRow.cpp
+         CglLandPUtils.cpp
+         CglLandPValidator.cpp
+         CglLiftAndProject.cpp
+         CglMessage.cpp
+         CglMixedIntegerRounding.cpp
+         CglMixedIntegerRounding2.cpp
+         CglOddHole.cpp
+         CglParam.cpp
+         Generating Code...
+         Compiling...
+         CglPreProcess.cpp
+         CglProbing.cpp
+         CglRedSplit.cpp
+         CglRedSplitParam.cpp
+         CglResidualCapacity.cpp
+         CglSimpleRounding.cpp
+         CglStored.cpp
+         CglTreeInfo.cpp
+         CglTwomir.cpp
+         Generating Code...
+       Lib:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Release\libCgl.lib" /NOLOGO Win32\Release\CglAllDifferent.obj
+         Win32\Release\CglClique.obj
+         Win32\Release\CglCliqueHelper.obj
+         Win32\Release\CglCutGenerator.obj
+         Win32\Release\CglDuplicateRow.obj
+         Win32\Release\CglFlowCover.obj
+         Win32\Release\CglGomory.obj
+         Win32\Release\CglKnapsackCover.obj
+         Win32\Release\CglLandP.obj
+         Win32\Release\CglLandPMessages.obj
+         Win32\Release\CglLandPSimplex.obj
+         Win32\Release\CglLandPTabRow.obj
+         Win32\Release\CglLandPUtils.obj
+         Win32\Release\CglLandPValidator.obj
+         Win32\Release\CglLiftAndProject.obj
+         Win32\Release\CglMessage.obj
+         Win32\Release\CglMixedIntegerRounding.obj
+         Win32\Release\CglMixedIntegerRounding2.obj
+         Win32\Release\CglOddHole.obj
+         Win32\Release\CglParam.obj
+         Win32\Release\CglPreProcess.obj
+         Win32\Release\CglProbing.obj
+         Win32\Release\CglRedSplit.obj
+         Win32\Release\CglRedSplitParam.obj
+         Win32\Release\CglResidualCapacity.obj
+         Win32\Release\CglSimpleRounding.obj
+         Win32\Release\CglStored.obj
+         Win32\Release\CglTreeInfo.obj
+         Win32\Release\CglTwomir.obj
+         libCgl.vcxproj -> E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Release\libCgl.lib
+     1>Done Building Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cgl\MSVisualStudio\v10\libCgl\libCgl.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:13.40

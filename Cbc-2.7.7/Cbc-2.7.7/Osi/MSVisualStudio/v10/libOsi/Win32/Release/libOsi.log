@@ -1,0 +1,36 @@
+﻿Build started 2015/3/25 16:24:15.
+     1>Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Osi\MSVisualStudio\v10\libOsi\libOsi.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /I..\..\..\..\Osi\src\Osi /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D OSI_BUILD /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\Osi\OsiAuxInfo.cpp ..\..\..\src\Osi\OsiBranchingObject.cpp ..\..\..\src\Osi\OsiChooseVariable.cpp ..\..\..\src\Osi\OsiColCut.cpp ..\..\..\src\Osi\OsiCut.cpp ..\..\..\src\Osi\OsiCuts.cpp ..\..\..\src\Osi\OsiNames.cpp ..\..\..\src\Osi\OsiPresolve.cpp ..\..\..\src\Osi\OsiRowCut.cpp ..\..\..\src\Osi\OsiRowCutDebugger.cpp ..\..\..\src\Osi\OsiSolverBranch.cpp ..\..\..\src\Osi\OsiSolverInterface.cpp
+         OsiAuxInfo.cpp
+         OsiBranchingObject.cpp
+         OsiChooseVariable.cpp
+         OsiColCut.cpp
+         OsiCut.cpp
+         OsiCuts.cpp
+         OsiNames.cpp
+         OsiPresolve.cpp
+         OsiRowCut.cpp
+         OsiRowCutDebugger.cpp
+         OsiSolverBranch.cpp
+         OsiSolverInterface.cpp
+         Generating Code...
+       Lib:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Release\libOsi.lib" /NOLOGO Win32\Release\OsiAuxInfo.obj
+         Win32\Release\OsiBranchingObject.obj
+         Win32\Release\OsiChooseVariable.obj
+         Win32\Release\OsiColCut.obj
+         Win32\Release\OsiCut.obj
+         Win32\Release\OsiCuts.obj
+         Win32\Release\OsiNames.obj
+         Win32\Release\OsiPresolve.obj
+         Win32\Release\OsiRowCut.obj
+         Win32\Release\OsiRowCutDebugger.obj
+         Win32\Release\OsiSolverBranch.obj
+         Win32\Release\OsiSolverInterface.obj
+         libOsi.vcxproj -> E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Cbc\MSVisualStudio\v10\Win32\Release\libOsi.lib
+     1>Done Building Project "E:\Program\C++\Cbc-2.7.7\Cbc-2.7.7\Osi\MSVisualStudio\v10\libOsi\libOsi.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.30
